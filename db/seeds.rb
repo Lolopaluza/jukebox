@@ -1,7 +1,47 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Artist.delete_all
+
+Artist.create( name: "1", bio: "1" )
+Artist.create( name: "2", bio: "2" )
+Artist.create( name: "3", bio: "3" )
+Artist.create( name: "4", bio: "4" )
+Artist.create( name: "5", bio: "5" )
+Artist.create( name: "6", bio: "6" )
+Artist.create( name: "7", bio: "7" )
+Artist.create( name: "8", bio: "8" )
+Artist.create( name: "9", bio: "9" )
+Artist.create( name: "10", bio: "10" )
+
+Song.delete_all
+
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+Song.create( title: "" ,description: "" )
+
+Genre.delete_all
+
+Genre.create( name: "Rock")
+Genre.create( name: "Hip-Hop")
+Genre.create( name: "Jazz")
+Genre.create( name: "Pop")
+Genre.create( name: "Dance")
+Genre.create( name: "Disco")
+Genre.create( name: "Alternative")
